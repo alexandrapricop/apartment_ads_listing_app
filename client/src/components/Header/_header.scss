@@ -1,0 +1,47 @@
+header {
+
+    background: black;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+    .logo {
+        width: 50px;
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    nav {
+
+        ul {
+            display: flex;
+            margin: 0;
+            align-items: center;
+
+            li {
+                padding-left: 30px;
+
+                a {
+                    color: white;
+                    font-family: $font-rubik;
+
+                    &:hover,
+                    &:focus,
+                    &:active {
+                        color: white;
+                    }
+                }
+
+                .btn.btn--yellow {
+                    padding: 10px 40px;
+                }
+            }
+        }
+    }
+
+}

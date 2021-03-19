@@ -1,0 +1,22 @@
+.page-add-item {
+    padding: 100px 0;
+
+    @media screen and (max-width: 768px) {
+        padding: 50px 0;
+    }
+
+    @media screen and (max-width: 560px) {
+        padding: 20px 0;
+    }
+    
+    .content {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: flex-start;
+
+        img {
+            width: 35%;
+            margin: auto;
+        }
+    }
+}
